@@ -5,13 +5,14 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
     background-image: linear-gradient(90deg, #8c52ff, #5ce1e6);
     color: white;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px  0 0 ;
     margin-top: 0%;
-    height: fit-contents;
+    height: fit-content;
 }
 
 .logo{

@@ -1,14 +1,173 @@
-.logo{
-  width:200px;
-  height:auto;
-}
+
 .top{
-  display:block;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(90deg, #8c52ff, #5ce1e6);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px  0 0 ;
+    margin-top: 0%;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #5ce1e6;
+}
+
+.home{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    background-image: url(imgs/meagain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    text-align: center;
+}
+
+.overlay{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
   
-  background-image: linear-gradient(90deg, #8c52ff, #5ce1e6);
 }
-nav{
-  float:right;
-  text-align: right;
-  margin-top: 100px;
+h1{
+    color: #8c52ff;
+    font-size: 48px;
+    text-align: center;
+    
 }
+.home-text{
+     
+    padding-top: 200px;
+    font-size: 62px;
+}
+
+@keyframes slideIn { 
+    from { 
+    transform: translateX(-100%); }
+     to { 
+     transform: translateX(0);
+      }
+       } 
+       
+       .home-text { animation: slideIn 3s ease forwards infinite; 
+       }
+
+.about-image{
+    width: 500px;
+    height: auto;
+    border-radius: 30%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.service-div{
+
+    width: 80%;
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #8c52ff;
+    border-radius: 10%;
+}
+
+.projects, .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-item{
+    padding-top: 10px;
+    width:20%;
+    height: auto;
+    
+}
+
+h3{
+    margin-top: 100px;
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.grid-item2{
+    padding-top: 10px;
+    width:45%;
+    height: auto;
+}
+
+.grid-item3{
+    padding-top: 10px;
+    width:48%;
+    height: auto; 
+}
+
+.game-img{
+    width:500px;
+    height:auto;
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+}
+form{
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    width:50vw;
+    margin-top: 30px;
+}
+
+footer{
+    background-image: linear-gradient(90deg, #8c52ff, #5ce1e6);;
+    margin-bottom: -40px;
+    margin-top: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.social-icons a {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
